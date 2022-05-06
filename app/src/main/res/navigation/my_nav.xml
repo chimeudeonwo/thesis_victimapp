@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/firstFragment">
+
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="com.example.loginregister.FirstFragment"
+        android:label="EmSys"
+        tools:layout="@layout/fragment_first" />
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.example.loginregister.UserSignUp"
+        android:label="Register"
+        tools:layout="@layout/fragment_second" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.loginregister.Login"
+        android:label="Login"
+        tools:layout="@layout/activity_login" />
+    <fragment
+        android:id="@+id/emAlertFragment"
+        android:name="com.example.loginregister.EmAlertActivity"
+        android:label="EmAlert"
+        tools:layout="@layout/activity_em_alert" />
+    <activity
+        android:id="@+id/emAlertHistoryId"
+        android:name="com.example.loginregister.EmAlertHistory"
+        android:label="EmAlertHistory"
+        tools:layout="@layout/em_alert_history"/>
+
+</navigation>
+
+    <!--android:id="@+id/secondFragment"
+    android:name="com.example.loginregister.UserSignUp"
+
+    android:name="com.example.loginregister.ThirdFragment"
+
+-->

@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">EmSys</string>
+    <string name="form">Register To Use EmSys</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="who">Who</string>
+    <string name="register">Register</string>
+    <string name="footer">Footer</string>
+    <string name="userDataCheckbox">I have read, understood and accepted EmSys User Data Protection Agreement and Terms of use.</string>
+    <string name="street">Street</string>
+    <string name="postcode">Postcode</string>
+    <string name="emsys">EmSys</string>
+    <string name="about">About</string>
+    <string name="career">Career</string>
+    <string name="login">Login</string>
+    <string name="user_data">User Data Protection</string>
+
+    <string-array name="who">
+        <item>Select category</item>
+        <item>User</item>
+        <item>Security Agency</item>
+    </string-array>
+
+    <string-array name="lga">
+        <item>Select Lga of residence</item>
+        <item>Awgu</item>
+        <item>Aninri</item>
+        <item>Orji-River</item>
+        <item>Udi</item>
+        <item>Nkanu East</item>
+        <item>Nkanu West</item>
+        <item>Nsukka</item>
+    </string-array>
+
+    <string-array name="state">
+        <item>Select State of residence</item>
+        <item>Abia</item>
+        <item>Adamawa</item>
+        <item>Akwa-Ibom</item>
+        <item>Anambra</item>
+        <item>Bauchi</item>
+        <item>Benue</item>
+        <item>Borno</item>
+        <item>Crossriver</item>
+        <item>Delta</item>
+        <item>Ebonyi</item>
+        <item>Edo</item>
+        <item>Ekiti</item>
+        <item>Enugu</item>
+        <item>Gombe</item>
+    </string-array>
+
+    <string-array name="country">
+        <item>Select country of residence</item>
+        <item>Albania</item>
+        <item>Belgium</item>
+        <item>Germany</item>
+        <item>Nigeria</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_first_fragment">Welcome to EmSys Home</string>
+    <string name="hello_second_fragment">Register To Use EmSys</string>
+    <string name="hello_third_fragment">Trigger Alert</string>
+    <string name="title_activity_em_alert">EmAlert</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="logout">Logout</string>
+    <string name="trigger_emalert">Trigger EmAlert</string>
+</resources>

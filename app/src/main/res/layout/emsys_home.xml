@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200">
+
+    <!-- parent -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/homeRelativeLayoutParent">
+
+        <!--For header-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/header">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="start"
+                android:text="@string/app_name"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:padding="@dimen/material_emphasis_medium"
+                android:textStyle="bold"
+                android:background="@color/teal_700"/>
+
+        </RelativeLayout>
+
+        <!--For Body-->
+
+        <RelativeLayout
+            android:id="@+id/homeRelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/header">
+
+           <!-- <include
+                android:id="@+id/includeSignUp"
+                layout="@layout/example" /> -->
+
+        </RelativeLayout>
+
+        <!--For footer-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <!--<TextView
+        android:id="@+id/textView"
+        android:layout_width="401dp"
+        android:layout_height="40dp"
+        android:text="EmSys"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <include android:id="@+id/includeSignUp"
+            layout="@layout/activity_login"/>
+
+    </TextView>-->
+</androidx.constraintlayout.widget.ConstraintLayout>

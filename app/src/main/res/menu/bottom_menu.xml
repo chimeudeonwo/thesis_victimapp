@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/firstFragment"
+        android:icon="@drawable/ic_home_icon"
+        android:title="@string/emsys" />
+    <item
+        android:id="@+id/signUpFragment"
+        android:icon="@drawable/ic_register_icon"
+        android:title="@string/register" />
+    <item
+        android:id="@+id/loginFragment"
+        android:icon="@drawable/ic_login_icon"
+        android:title="@string/login" />
+
+    <item
+        android:id="@+id/logoutFragment"
+        android:icon="@drawable/ic_logout_icon"
+        android:title="@string/logout" />
+</menu>
+
+<!--         android:id="@+id/secondFragment" -->

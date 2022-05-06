@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/emAlertHome"
+        android:icon="@drawable/ic_emalert_icon"
+        android:title="EmAlert" />
+    <item
+        android:id="@+id/emAlertHistoryId"
+        android:icon="@drawable/ic_history"
+        android:title="EmAlert History" />
+
+    <item
+        android:id="@+id/emAlertFragment"
+        android:icon="@drawable/ic_user_protection_policy"
+        android:title="Data Protection" />
+
+    <item
+        android:id="@+id/firstFragment"
+        android:icon="@drawable/ic_home_icon"
+        android:title="Home" />
+
+</menu>
