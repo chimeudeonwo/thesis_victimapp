@@ -1,1 +1,1 @@
-# thesis_victimapp
+# Bachelor Thesis of Patrick chimeudeonwo
